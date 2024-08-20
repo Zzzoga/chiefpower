@@ -38,13 +38,16 @@ var sliderModal = new Swiper(".partners__slider.swiper", {
     },
 	breakpoints: {
 	    600: {
-			slidesPerView: 3,
+			slidesPerView: 'auto',
+			spaceBetween: 80,
 	    },
 	    1180: {
-			slidesPerView: 4,
+			slidesPerView: 'auto',
+			spaceBetween: 100,
 	    },
 		1360: {
-			slidesPerView: 5,
+			slidesPerView: 'auto',
+			spaceBetween: 120,
 		},
 		1650: {
 			slidesPerView: 5,

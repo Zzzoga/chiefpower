@@ -741,13 +741,15 @@
 
 	.benefits__wrapper {
 		display: grid;
-		grid-template-areas: "item-1 item-2"
-        "item-1 item-3"
-        "item-4 item-5"
-        "item-4 item-6"
-        "item-7 item-8"
-        "item-9 item-8"
-        "item-10 item-11";
+		grid-template-areas:
+			"item-1 item-2"
+			"item-1 item-3"
+			"item-4 item-5"
+			"item-4 item-6"
+			"item-7 item-8"
+			"item-9 item-8"
+			"item-10 item-11";
+		width: 100%;
 	}
 
 	.benefits__item:nth-child(1) {
